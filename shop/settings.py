@@ -131,6 +131,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 AUTH_USER_MODEL ="user.CustomerUser"
 
-STATIC_DIRS = [
+STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
 ]
